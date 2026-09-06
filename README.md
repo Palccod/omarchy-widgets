@@ -635,12 +635,14 @@ own panel are two views of one state: flip the switch here and the panel's
 status line changes with it. If Omate is not loaded the card says so and goes
 inert rather than drawing controls that answer to nothing.
 
-- **The switch** shows and hides the pet — the same toggle as the power button
-  in Omate's own panel, not the plugin's enable/disable.
+- **The switch** shows and hides the pet — the very power button from
+  Omate's own panel (same component, same glyph), not the plugin's
+  enable/disable.
 - **The skin row** is every character pack Omate can see, each chip playing
   that pack's idle animation with the pet's own sprite component; a tap makes
-  it the pet. The row flicks sideways when the packs do not fit, the second
-  widget here to scroll (the todo list was the first).
+  it the pet. The row flicks sideways when the packs do not fit, and edge
+  arrows step it one skin at a time — the second widget here to scroll (the
+  todo list was the first).
 - **Size** is the pet's scale, one to six.
 - **Cursor** turns the cursor chase on and off, and **Speed** sets how often
   it re-chases, from five seconds to an hour on a curve — the interesting
